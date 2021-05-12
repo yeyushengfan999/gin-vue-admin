@@ -61,5 +61,5 @@ require (
 )
 
 replace (
-    gin-vue-admin => .
+    gin-vue-admin => ./
 )
