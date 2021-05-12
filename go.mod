@@ -3,7 +3,7 @@ module github.com/yeyushengfan999/gin-vue-admin
 go 1.14
 
 require (
-	
+	gin-vue-admin v0.0.0-incompatible
 	github.com/360EntSecGroup-Skylar/excelize/v2 v2.3.2
 	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
@@ -58,4 +58,8 @@ require (
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 	gorm.io/driver/mysql v1.0.1
 	gorm.io/gorm v1.20.7
+)
+
+replace (
+    gin-vue-admin => .
 )
