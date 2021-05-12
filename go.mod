@@ -1,4 +1,4 @@
-module github.com/yeyushengfan567/gin-vue-admin
+module github.com/yeyushengfan999/gin-vue-admin
 
 go 1.14
 
